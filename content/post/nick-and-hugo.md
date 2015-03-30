@@ -1,0 +1,22 @@
++++
+date = "2015-03-29T16:39:59-04:00"
+title = "Nick and Hugo: Fast Friends"
+
++++
+
+Today I am relaunching my blog. One of my resolutions this year was to publish at least four blog posts, and the first step in that process was to find a new place to publish them. I considered switching to a hosted option like Medium, but as [Marco Arment](http://www.marco.org/2013/08/05/be-your-own-platform) and [Chris Bowler](http://chrisbowler.com/journal/ownership) have discussed, there are some concerns over content ownership on Medium. I also considered the newly popular [Ghost](https://ghost.org/), which seems to be the toast of the server-side blogging world right now (Wordpress falls somewhere on the spectrum just beneath gutter trash), but lately I've had the itch for simplicity.
+
+That's where [Hugo](http://gohugo.io/) comes in. Hugo is the latest in a long line of static site generators. Static site generators are content management tools (usually focused on blogging or documentation) that run locally and output the site as plain old HTML files. And what could be simpler than plain old HTML?
+
+So, with so many options to choose, one might ask, "Why Hugo?" There are plenty of reasons. The one that Hugo's developers are most proud of is its speed: Hugo can build 5000 posts in about seven seconds. Imagine that: in less than seven seconds, you can generate nearly seven years of posts, and that assumes that you were posting twice a day. I'd call that fast, and it bears noting that that test was run against content on a hard drive. "But Nick," you might protest, "you're only hoping to write four posts a year! What do you need that speed for?" I'd tell you that there is more to love about Hugo than just its speed. Far more.
+
+Hugo is written in Go which accounts for some of the speed, but also accounts for another cool side effect: on Homebrew, I don't have to install Go to install Hugo. I can install a binary package that includes the tool I need without unnecessary cruft. Call me crazy, but when I'm an end-user, I like binary packages. I don't have to install a version of ruby or python to make it work. There is another benefit of this that some of the other static site generators lack: I don't have to do any programming at all to build or configure my site. Not even the declarative style that is used to configure [Sphinx](http://sphinx-doc.org/). I like that.
+
+[Jekyll](http://jekyllrb.com/) is definitely the standard-bearer of the static site generator world, but it was never appealed to me. Hugo and Jekyll are similarly flexible, but Hugo seems to have a somewhat simpler conceptual model. Posts aren't a special thing, they are just a section like any other. That many themes have a special view of the `post` section is purely a bit of convetion. Likewise, tags and categories are instances of the general concept of taxonomies. Sections, taxonomies and archetypes are the core of Hugo, and they are all general concepts with common applications implemented by convention.
+
+Another great feature of Hugo is it's theme system. It's simplicity is difficult to explain briefly, but I'll try. Hugo themes are built on the notion of overridable defaults. To make a Hugo site work, you basically need two template files: `single.html` and `list.html`. There is a default set of those files, and you can create more specific implementations for any section. You can also create partials – bits of HTML that can be included in other themes. All of these theme files can be provided by you or the theme, or both. Any files you create override those created by a theme. Like I said, it's tricky to explain, but the [docs](http://gohugo.io/themes/overview/) do a pretty good job.
+
+I like Hugo, and hopefully others will agree. Writing this post was the hardest part about writing this post, and that's all I really want out of a statice site generator.
+
+## Oh And…
+I'd also like to direct your attention to the [photography of Brook Ward on Flickr](https://www.flickr.com/photos/brookward/8656104515/), which is the source of my header image, and the [hugo-uno theme](https://github.com/SenjinDarashiva/hugo-uno) by Fredrik Loch, which is the theme that this site is built on.

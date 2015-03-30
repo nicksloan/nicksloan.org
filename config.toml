@@ -1,0 +1,15 @@
+languageCode = "en-us"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseurl = "/"
+canonifyurls = true
+title = "Nick Sloan"
+author = "Nick Sloan"
+
+[Params]
+  AuthorName = "Nick Sloan"
+  github = "nicksloan"
+  bitbucket = "nicksloan"
+  twitter = "nicksloan"
+  description = "I'm Nick Sloan, a software developer from Pittsburgh, PA. I organize the Pittsburgh Python User Group, I'm the Chief Technology Officer at Community Elf, and I'm good at watching TV shows on Netflix. Maybe the best."

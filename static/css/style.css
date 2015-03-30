@@ -1,0 +1,5 @@
+header.panel-cover {
+  background-position: bottom center;
+  transition: width .5s;
+  background-image: url('/images/background-cover-common.jpg');
+}
