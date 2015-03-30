@@ -5,10 +5,11 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+    <base href="{{ .Site.BaseUrl }}">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/uno.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/lightGallery.css" />
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/lightGallery.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" href="/images/favicon-152.png">
     <link rel="shortcut icon" href="/images/favicon-16.png">
@@ -16,7 +17,7 @@
     <!-- RSS -->
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <!-- Script -->
-    <script src="{{ .Site.BaseUrl }}/js/jquery.min.js"></script>
-    <script src="{{ .Site.BaseUrl }}/js/main.min.js">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.min.js">
     </script>
 </head>
