@@ -1,15 +1,31 @@
-languageCode = "en-us"
-contentdir = "content"
-publishdir = "public"
-builddrafts = false
-baseurl = ""
-canonifyurls = true
+baseurl = "https://nicksloan.org/"
 title = "Nick Sloan"
-author = "Nick Sloan"
+languageCode = "en-US"
+MetaDataFormat = "toml"
+theme = "slender"
+paginate = 3
+PaginatePath = "/"
+relativeURLs = true
+canonifyURLs = false
 
-[Params]
-  AuthorName = "Nick Sloan"
-  github = "nicksloan"
-  bitbucket = "nicksloan"
-  twitter = "nicksloan"
-  description = "I'm Nick Sloan, a software developer from Pittsburgh, PA. I organize the Pittsburgh Python User Group, I'm the Chief Technology Officer at Community Elf, and I'm good at watching TV shows on Netflix. Maybe the best."
+[author]
+name = "Nick Sloan"
+
+[params]
+colorscheme = "white"
+tagline = ""
+footer = "&copy; 2016 Nick Sloan"
+description = "A blog about programming by Nick Sloan."
+keywords = ""
+github = "https://github.com/nicksloan"
+bitbucket = "https://bitbucket.org/nicksloan"
+twitter = "https://twitter.com/nicksloan"
+facebook = "https://facebook.com/nasloan"
+
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name       = "home"
+url        = "/"
+weight     = 0
