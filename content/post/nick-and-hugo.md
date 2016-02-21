@@ -17,6 +17,3 @@ Hugo is written in Go which accounts for some of the speed, but also accounts fo
 Another great feature of Hugo is it's theme system. It's simplicity is difficult to explain briefly, but I'll try. Hugo themes are built on the notion of overridable defaults. To make a Hugo site work, you basically need two template files: `single.html` and `list.html`. There is a default set of those files, and you can create more specific implementations for any section. You can also create partials – bits of HTML that can be included in other themes. All of these theme files can be provided by you or the theme, or both. Any files you create override those created by a theme. Like I said, it's tricky to explain, but the [docs](http://gohugo.io/themes/overview/) do a pretty good job.
 
 I like Hugo, and hopefully others will agree. Writing this post was the hardest part about writing this post, and that's all I really want out of a statice site generator.
-
-## Oh And…
-I'd also like to direct your attention to the [photography of Brook Ward on Flickr](https://www.flickr.com/photos/brookward/8656104515/), which is the source of my header image, and the [hugo-uno theme](https://github.com/SenjinDarashiva/hugo-uno) by Fredrik Loch, which is the theme that this site is built on.
